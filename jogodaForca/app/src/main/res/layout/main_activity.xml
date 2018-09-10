@@ -8,43 +8,17 @@
     android:background="@color/white">
 
     <LinearLayout
-        android:layout_width="195dp"
+        android:layout_width="169dp"
         android:layout_height="160dp"
         android:layout_marginTop="1dp"
-        android:orientation="vertical"
-        android:background="@color/white">
-
-        <ImageView
-            android:id="@+id/img_icone"
-            android:layout_width="191dp"
-            android:layout_height="155dp"
-            android:src="@drawable/icone"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="175dp"
-        android:layout_height="157dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="-160dp"
         android:background="@color/white"
-        >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Espaço para dica aqui"
-            android:textSize="15dp"
-            android:textColor="@color/yeloow"
-            android:layout_marginVertical="20dp"
-            />
+        android:orientation="vertical"
+        android:layout_gravity="center">
 
         <ImageView
+            android:id="@+id/westeros"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/idea"
-            android:id="@+id/img_idea"
-            android:paddingTop="120dp"
             />
 
     </LinearLayout>
@@ -60,11 +34,11 @@
         <TextView
             android:layout_width="209dp"
             android:layout_height="69dp"
-            android:text="_______________"
             android:textSize="20dp"
             android:textColor="@color/white"
             android:paddingTop="30dp"
             android:gravity="center"
+            android:id="@+id/txtBoxWord"
             />
     </LinearLayout>
 
@@ -81,7 +55,10 @@
             android:layout_margin="1dp"
             android:text="A"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn0"
+            android:tag="a"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -89,7 +66,11 @@
             android:layout_margin="1dp"
             android:text="B"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn1"
+            android:tag="b"
+            android:onClick="clickBtn"
+            />
 
         <Button
             android:layout_width="35dp"
@@ -97,7 +78,10 @@
             android:layout_margin="1dp"
             android:text="C"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn2"
+            android:tag="c"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -105,7 +89,10 @@
             android:layout_margin="1dp"
             android:text="D"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn3"
+            android:tag="d"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -113,7 +100,10 @@
             android:layout_margin="1dp"
             android:text="E"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn4"
+            android:tag="e"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -121,7 +111,10 @@
             android:layout_margin="1dp"
             android:text="F"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn5"
+            android:tag="f"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -129,7 +122,10 @@
             android:layout_margin="1dp"
             android:text="G"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn6"
+            android:tag="g"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -137,7 +133,10 @@
             android:layout_margin="1dp"
             android:text="H"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn7"
+            android:tag="h"
+            android:onClick="clickBtn"/>
 
 
     </LinearLayout>
@@ -155,7 +154,10 @@
             android:layout_margin="1dp"
             android:text="I"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn8"
+            android:tag="i"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -163,7 +165,10 @@
             android:layout_margin="1dp"
             android:text="J"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="j"
+            android:id="@+id/btn9"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -171,7 +176,10 @@
             android:layout_margin="1dp"
             android:text="K"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn10"
+            android:tag="k"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -179,7 +187,10 @@
             android:layout_margin="1dp"
             android:text="L"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="l"
+            android:id="@+id/btn11"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -187,7 +198,10 @@
             android:layout_margin="1dp"
             android:text="M"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="m"
+            android:id="@+id/btn12"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -195,7 +209,10 @@
             android:layout_margin="1dp"
             android:text="N"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="n"
+            android:id="@+id/btn13"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -203,7 +220,10 @@
             android:layout_margin="1dp"
             android:text="O"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn14"
+            android:tag="o"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -211,7 +231,10 @@
             android:layout_margin="1dp"
             android:text="P"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="p"
+            android:id="@+id/btn15"
+            android:onClick="clickBtn"/>
 
 
     </LinearLayout>
@@ -229,7 +252,10 @@
             android:layout_margin="1dp"
             android:text="Q"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="q"
+            android:id="@+id/btn16"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -237,7 +263,10 @@
             android:layout_margin="1dp"
             android:text="R"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="r"
+            android:id="@+id/btn17"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -245,7 +274,10 @@
             android:layout_margin="1dp"
             android:text="S"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="s"
+            android:id="@+id/btn18"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -253,7 +285,10 @@
             android:layout_margin="1dp"
             android:text="T"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="t"
+            android:id="@+id/btn19"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -261,7 +296,10 @@
             android:layout_margin="1dp"
             android:text="U"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="u"
+            android:id="@+id/btn20"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -269,7 +307,10 @@
             android:layout_margin="1dp"
             android:text="V"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="v"
+            android:id="@+id/btn21"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -277,7 +318,10 @@
             android:layout_margin="1dp"
             android:text="W"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="w"
+            android:id="@+id/btn22"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -285,7 +329,10 @@
             android:layout_margin="1dp"
             android:text="X"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/btn23"
+            android:tag="x"
+            android:onClick="clickBtn"/>
 
 
     </LinearLayout>
@@ -303,7 +350,10 @@
             android:layout_margin="1dp"
             android:text="Y"
             android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="y"
+            android:id="@+id/btn24"
+            android:onClick="clickBtn"/>
 
         <Button
             android:layout_width="35dp"
@@ -311,15 +361,10 @@
             android:layout_margin="1dp"
             android:text="Z"
             android:background="@color/black"
-            android:textColor="@color/white"/>
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="35dp"
-            android:layout_margin="10dp"
-            android:text="DICA"
-            android:background="@color/black"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:tag="z"
+            android:id="@+id/btn25"
+            android:onClick="clickBtn"/>
 
 
     </LinearLayout>

@@ -5,29 +5,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
 
-/**
- * Created by 17259222 on 27/08/2018.
- */
-
-public class Inicio_Activity extends Activity {
-
-    ImageView img_forca;
-    Button  btn_inicio;
-
+public class GameOver_Activity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inicio_activity);
-
+        setContentView(R.layout.gameover_activity);
     }
-
-    public void btnIniciar(View v){
-        Intent intent = new Intent(this, Main_Activity.class);
+    public void btnContinuar(View view){
+        Intent intent = new Intent (getApplicationContext(), Main_Activity.class);
         startActivity(intent);
-
         finish();
     }
+    public void btnSair(View view){
+        finish();
+    }
+
 }

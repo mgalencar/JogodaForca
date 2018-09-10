@@ -19,5 +19,17 @@
         <activity android:name=".Main_Activity">
 
         </activity>
+
+        <activity android:name=".Vitoria_Activity">
+
+        </activity>
+
+        <activity android:name=".GameOver_Activity">
+
+        </activity>
+
+
+
+
     </application>
 </manifest>
